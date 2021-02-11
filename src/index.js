@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import LocationApp from './pages/LocationApp';
 import reportWebVitals from './reportWebVitals';
+import './assets/global.scss'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LocationApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
